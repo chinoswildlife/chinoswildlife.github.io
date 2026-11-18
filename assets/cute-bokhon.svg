@@ -12,8 +12,12 @@
 <path d="M0 355 Q141 322 296 356 Q438 322 640 344V480H0Z" fill="#9bb97b"/>
 <g fill="#fffdfa" opacity=".75"><ellipse cx="112" cy="89" rx="52" ry="18"/><ellipse cx="140" cy="79" rx="35" ry="22"/><ellipse cx="356" cy="97" rx="52" ry="16"/><ellipse cx="329" cy="88" rx="28" ry="17"/></g>
 <g stroke-linejoin="round" stroke-linecap="round"><path d="M160 340 Q118 333 131 285" fill="none" stroke="#936b4d" stroke-width="11" stroke-linecap="round"/>
- <path d="M 187 367 L 182 402 Q 201 408 220 402 L 215 367" fill="#936b4d" stroke="#5c5449" stroke-width="5"/><path d="M 268 370 L 263 405 Q 282 411 301 405 L 296 370" fill="#936b4d" stroke="#5c5449" stroke-width="5"/><path d="M 352 366 L 347 401 Q 366 407 385 401 L 380 366" fill="#936b4d" stroke="#5c5449" stroke-width="5"/><path d="M 394 360 L 389 395 Q 408 401 427 395 L 422 360" fill="#936b4d" stroke="#5c5449" stroke-width="5"/>
- <ellipse cx="294" cy="299" rx="157" ry="99" fill="url(#fur)" stroke="#5c5449" stroke-width="6"/>
+ 
+ <path d="M 189 302 C 187 334 192.16 375 194.16 415 Q 194.16 432 201 432 Q 207.84 432 207.84 415 C 209.84 375 211 334 213 302 Z" fill="#deb382" stroke="#5c5449" stroke-width="5" stroke-linejoin="round"/><path d="M 193.16 414 Q 201 417 208.84 414 L 210.84 432 Q 201 439 191.16 432 Z" fill="#936b4d" stroke="#5c5449" stroke-width="3"/>
+<path d="M 270 303 C 272 335 273.16 378 275.16 418 Q 275.16 435 282 435 Q 288.84 435 288.84 418 C 290.84 378 296 335 294 303 Z" fill="#deb382" stroke="#5c5449" stroke-width="5" stroke-linejoin="round"/><path d="M 274.16 417 Q 282 420 289.84 417 L 291.84 435 Q 282 442 272.16 435 Z" fill="#936b4d" stroke="#5c5449" stroke-width="3"/>
+<path d="M 354 307 C 352 339 357.16 375 359.16 415 Q 359.16 432 366 432 Q 372.84 432 372.84 415 C 374.84 375 376 339 378 307 Z" fill="#deb382" stroke="#5c5449" stroke-width="5" stroke-linejoin="round"/><path d="M 358.16 414 Q 366 417 373.84 414 L 375.84 432 Q 366 439 356.16 432 Z" fill="#936b4d" stroke="#5c5449" stroke-width="3"/>
+<path d="M 396 300 C 398 332 399.16 370 401.16 410 Q 401.16 427 408 427 Q 414.84 427 414.84 410 C 416.84 370 422 332 420 300 Z" fill="#deb382" stroke="#5c5449" stroke-width="5" stroke-linejoin="round"/><path d="M 400.16 409 Q 408 412 415.84 409 L 417.84 427 Q 408 434 398.16 427 Z" fill="#936b4d" stroke="#5c5449" stroke-width="3"/>
+ <ellipse cx="294" cy="283" rx="157" ry="80" fill="url(#fur)" stroke="#5c5449" stroke-width="6"/>
  <path d="M383 262 Q408 214 435 195 Q466 173 496 202 L493 308 Q436 326 390 305" fill="#deb382" stroke="#5c5449" stroke-width="6"/>
  <path d="M435 192 Q415 164 392 169 Q398 207 437 218 Z M486 194 Q519 167 533 183 Q518 213 493 217 Z" fill="#f5d6a0" stroke="#5c5449" stroke-width="5"/>
  <path d="M449 166 Q439 112 450 69 Q460 111 468 167 M483 166 Q489 119 505 81 Q510 122 495 174" stroke="#936b4d" stroke-width="13" fill="none" stroke-linecap="round"/>
