@@ -1,0 +1,50 @@
+
+/* CHINOS Interactive adventure */
+.hero-postcard img,.animal-image img,.detail-picture img{object-fit:contain;mix-blend-mode:normal}
+.hero-postcard{background:#d9eddf}
+.hero-postcard-main{background:#bce0eb}
+.hero-postcard-second{background:#e9daa8}
+.hero-postcard-third{background:#eed5a6}
+.animal-image{background:#cce6e2}
+.animal-card:nth-child(3n+2) .animal-image{background:#f9e2bb}
+.animal-card:nth-child(3n+3) .animal-image{background:#d3e7cd}
+.animal-image img{object-fit:cover;mix-blend-mode:normal}
+.detail-picture img{object-fit:contain;mix-blend-mode:normal}
+.play-layout{grid-template-columns:repeat(2,minmax(0,1fr))}
+.play-card:nth-child(3){background:#cde2e2;color:#1a453c;border:0}
+.play-card:nth-child(3) p{color:#486358}
+.play-card:nth-child(4){background:#f3e8bf;color:#1a453c;border:0}
+.play-card:nth-child(4) p{color:#486358}
+.adventure-ribbon{background:#fff4dd;color:#22453b;padding:19px 0;text-align:center;font-weight:800;font-size:14px;letter-spacing:.03em}
+.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.match-grid h3{font-size:16px;margin:0 0 12px}
+.match-column{display:grid;gap:9px;align-content:start}
+.match-choice{width:100%;text-align:left;border:2px solid #dce7db;background:#fff;border-radius:15px;padding:13px 16px;color:#21473b;font-weight:780;min-height:64px;transition:.2s}
+.match-choice:hover:not(:disabled){background:#f3f9ed;border-color:#94b39c}
+.match-choice.selected{border-color:#1a5e48;background:#e4f3c9}
+.match-choice.correct{border-color:#85b77e;background:#e3f3d9;color:#286244}
+.match-choice.mistake{animation:matchShake .3s;border-color:#b9785e}
+.match-choice:disabled{opacity:.65;cursor:default}
+.match-choice img{width:48px;height:43px;object-fit:cover;border-radius:9px;display:inline-block;vertical-align:middle;margin-right:8px}
+@keyframes matchShake{25%{transform:translateX(5px)}50%{transform:translateX(-5px)}75%{transform:translateX(3px)}}
+.match-status{margin-top:20px;background:#ebf3e6;padding:16px 19px;border-radius:14px;font-weight:800}
+.match-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:19px}
+.study-draw-board{width:100%;aspect-ratio:1.5;display:block;border:1px solid #dce4db;touch-action:none;background:#fff;border-radius:17px}
+.study-tools{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:15px 0}
+.study-tools select,.study-tools input,.pledge-entry input,.pledge-entry select{border:1px solid #bed0bf;background:white;border-radius:10px;padding:11px;color:#21463a;font:inherit}
+.study-tools select{max-width:100%}
+.study-tools label{font-size:13px}
+.study-help{color:#637c6d;font-size:13px;line-height:1.75}
+.pledge-panel{margin-top:34px;display:grid;grid-template-columns:.9fr 1.1fr;gap:22px;align-items:stretch}
+.pledge-info{border-radius:24px;background:#1a493d;color:#fff;padding:32px}
+.pledge-info strong{font-size:25px;display:block;margin-bottom:12px}
+.pledge-info p{color:#d7e6d6;line-height:1.8}
+.pledge-entry{border:1px solid #dce5dc;background:white;border-radius:24px;padding:28px}
+.pledge-entry label{display:block;font-weight:850;margin-bottom:7px;font-size:13px}
+.pledge-entry input,.pledge-entry select{width:100%;margin-bottom:14px}
+.pledge-entry .btn{margin-top:6px}
+.pledge-preview{margin-top:17px;background:#f0f8e5;border:1px dashed #a3bc99;border-radius:15px;padding:17px;line-height:1.8;display:none}
+.pledge-preview.visible{display:block}
+.pledge-preview strong{color:#245742}
+@media(max-width:650px){.play-layout,.match-grid,.pledge-panel{grid-template-columns:1fr}.play-card{min-height:270px}.study-draw-board{aspect-ratio:1.27}.match-choice{min-height:58px;padding:10px}.match-choice img{width:36px;height:36px;margin-right:4px}}
+@media(prefers-reduced-motion:reduce){.match-choice.mistake{animation:none}}
